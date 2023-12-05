@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Lato:wght@400;700&family=Playfair+Display:ital@1&family=Poppins:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(46, 46, 134);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.04rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    margin: 130px 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leftsection {
+    margin: 70px;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.rightsection img {
+    width: 80%;
+    height: 400px;
+}
+
+.firstsection>div {
+    width: 40%;
+
+}
+
+.purple {
+    color: rgb(170, 107, 228);
+
+
+}
+
+#element {
+    color: rgb(170, 107, 228);
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+main hr {
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.8px;
+    margin: 40px 0px;
+
+}
+
+.secondsection h1 {
+    font-size: 1.9rem;
+    margin: auto;
+
+}
+
+.text-gray {
+    color: gray;
+
+}
+
+.secondsection .box {
+    background-color: white;
+    width: 77vw;
+    margin: 56px 0;
+    height: 2px;
+    display: flex;
+
+}
+
+.secondsection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0px 140px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 13px;
+}
+
+.image-top {
+    width: 40px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+.footer{
+    display: flex;
+   padding: 23px 122px;
+   justify-content: space-around;
+}
+footer{
+    background-color:#0e0e1a;
+    height: 23px;
+    
+}
+.footer ul{
+    list-style: none;
+}
+footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}

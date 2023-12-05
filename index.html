@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sristy's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Work Expereince">Work  Expereince</a></li>
+                    <li><a href="#Contact me">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="Home" class="firstsection">
+            <div id="About" class="leftsection">
+                <div> Hi,My name is <div><span class="purple"> Sristy</span></div>
+                </div>
+                <div> and I am a passionate</div>
+
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="developer.webp" alt="">
+            </div>
+
+        </section>
+
+        <section class="secondsection">
+            <hr>
+            <span class="text-gray">What I have done so far</span>
+            <h1 id="Work Expereince" >Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="developer2.png" alt="">
+                    <div class="vertical-title">
+                        Web Developer(Basic)
+                    </div>
+                    <div class="vertical-desc">
+                        Fresher web developer with a passion for crafting visually appealing and profecient in front-end
+                        technologies.
+                        My skillls include HTML,CSS and Javascript.
+                    </div>
+                </div>
+
+
+
+
+                <div class="vertical">
+                    <img class="image-top" src="gamer.jpeg" alt="">
+                    <div class="vertical-title">
+                        Gamer(Advance)
+                    </div>
+                    <div class="vertical-desc">
+                        Passionate gamer with a diverse gaming background spanning
+                        genres such as FPS,RPG and strategy games.proven ability to work collaboratily in multiplayer
+                        settings.
+                    </div>
+                </div>
+
+
+                <div class="vertical">
+                    <img class="image-top" src="graphicdesigner.jpeg" alt="">
+                    <div class="vertical-title">
+                        Graphic Designer(Intermediate)
+                    </div>
+                    <div class="vertical-desc">
+                        Versatile graphic Designer with keen eye for asesthetic and a passion for creative expression .
+                        Proficient in translating concepts into visually stunning designs across various mediums.
+                    </div>
+                </div>
+
+
+
+                <div class="vertical">
+                    <img class="image-top" src="videoeditor.jpeg" alt="">
+                    <div class="vertical-title">
+                        Video Editor(Intermediate)
+                    </div>
+                    <div class="vertical-desc">
+                        Detail-oriented video editor skilled in transforming raw footage into compelling visual stories.
+                        proficient in using industry standard editing software to cut,trim and arrange sequences
+                        seamlessly.
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Contact Me</h3>
+            </div>
+            <div id="Contact me" class="footer-second">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/sristy-720158266/">linkedin</a></li>
+                    <li><a href="https://github.com/Sristy-72">github</a></li>
+                </ul>
+            </div>
+            <div class="footer-third"></div>
+            <div class="footer-fourth"></div>
+            
+        </div>
+        <div class=" footer-rights">
+            ©All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', ' a Web Designer', 'Video Editor', 'Gamer..'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
