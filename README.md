@@ -1,2 +1,2 @@
 # Portfolio
-Simple portfolio website using CSS and HTML
+https://sristy-portfolio.netlify.app/
