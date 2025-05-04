@@ -1,2 +1,2 @@
 # Portfolio
-https://sristy-portfolio.netlify.app/
+https://sristyportfolio.netlify.app/
